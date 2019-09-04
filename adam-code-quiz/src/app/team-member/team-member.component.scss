@@ -1,0 +1,16 @@
+.team-member{
+	margin-bottom: 60px;
+	img{
+		display: flex;
+	  flex-flow: row nowrap;
+	  align-items: center;
+	}
+}
+
+@media all and (max-width: 991px){
+	.team-member{
+		img{
+			margin: auto;
+		}
+	}
+}
